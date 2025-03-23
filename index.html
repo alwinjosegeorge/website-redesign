@@ -3,74 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>µLearn Learning Platform</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Modern Wiki</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="https://mulearn.org/static/images/logo.svg" alt="µLearn Logo">
+        <div class="container">
+            <h1>Modern Wiki</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Modern Wiki...">
+                <button><i class="fas fa-search"></i></button>
             </div>
-            <ul class="nav-links">
-                <li><a href="#courses">Courses</a></li>
-                <li><a href="#challenges">Challenges</a></li>
-                <li><a href="#community">Community</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="cta">
-                <a href="#login" class="btn">Login</a>
-                <a href="#signup" class="btn">Sign Up</a>
-            </div>
-        </nav>
+        </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h1>Welcome to µLearn</h1>
-                <p>Empowering learners through collaborative and practical learning experiences.</p>
-                <a href="#get-started" class="btn hero-btn">Get Started</a>
-            </div>
+    <main class="container">
+        <section class="featured-article">
+            <h2>Featured Article</h2>
+            <p>Discover the latest insights and updates on a wide range of topics. Our featured article today covers the fascinating world of artificial intelligence and its impact on modern society.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
         </section>
 
-        <section id="courses" class="section">
-            <h2>Our Courses</h2>
-            <div class="course-cards">
-                <!-- Example Course Card -->
-                <div class="course-card">
-                    <h3>Responsive Web Design</h3>
-                    <p>Learn the fundamentals of responsive web design to build modern websites.</p>
-                    <a href="https://learn.mulearn.org/web/core/1" class="btn">Learn More</a>
+        <section class="categories">
+            <h2>Explore Categories</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <i class="fas fa-atom"></i>
+                    <h3>Science</h3>
+                    <p>Explore the wonders of the universe and the latest scientific discoveries.</p>
                 </div>
-                <!-- Add more course cards as needed -->
+                <div class="category-card">
+                    <i class="fas fa-landmark"></i>
+                    <h3>History</h3>
+                    <p>Dive into the past and learn about the events that shaped our world.</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Technology</h3>
+                    <p>Stay updated with the latest advancements in technology and innovation.</p>
+                </div>
+                <div class="category-card">
+                    <i class="fas fa-palette"></i>
+                    <h3>Art & Culture</h3>
+                    <p>Discover the rich tapestry of human creativity and expression.</p>
+                </div>
             </div>
-        </section>
-
-        <section id="challenges" class="section">
-            <h2>Challenges</h2>
-            <p>Engage in practical challenges to apply your knowledge and earn recognition.</p>
-            <a href="https://learn.mulearn.org/challenges" class="btn">View Challenges</a>
-        </section>
-
-        <section id="community" class="section">
-            <h2>Join Our Community</h2>
-            <p>Connect with peers, mentors, and industry experts to enhance your learning journey.</p>
-            <a href="https://mulearn.org/campuschapters" class="btn">Explore Community</a>
         </section>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <p>© 2025 µLearn. All rights reserved.</p>
-            <div class="social-links">
-                <!-- Social media icons -->
-                <a href="#"><img src="icons/facebook.svg" alt="Facebook"></a>
-                <a href="#"><img src="icons/twitter.svg" alt="Twitter"></a>
-                <a href="#"><img src="icons/linkedin.svg" alt="LinkedIn"></a>
-            </div>
+        <div class="container">
+            <p>&copy; 2023 Modern Wiki. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         </div>
     </footer>
 </body>
