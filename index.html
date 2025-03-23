@@ -3,68 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Modern Wiki</title>
+    <title>Amazon Clone</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <!-- Header -->
     <header>
         <div class="container">
-            <h1>Modern Wiki</h1>
+            <div class="logo">
+                <img src="logo.png" alt="Amazon Logo">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Amazon">
+                <button><i class="fas fa-search"></i></button>
+            </div>
             <nav>
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Deals</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <div class="search-bar">
-                <input type="text" placeholder="Search Modern Wiki...">
-                <button><i class="fas fa-search"></i></button>
-            </div>
         </div>
     </header>
 
-    <main class="container">
-        <section class="featured-article">
-            <h2>Featured Article</h2>
-            <p>Discover the latest insights and updates on a wide range of topics. Our featured article today covers the fascinating world of artificial intelligence and its impact on modern society.</p>
-            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
-        </section>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to Amazon</h1>
+            <p>Discover amazing products and exclusive deals.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
 
-        <section class="categories">
-            <h2>Explore Categories</h2>
-            <div class="category-grid">
-                <div class="category-card">
-                    <i class="fas fa-atom"></i>
-                    <h3>Science</h3>
-                    <p>Explore the wonders of the universe and the latest scientific discoveries.</p>
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="product1.jpg" alt="Product 1">
+                    <h3>Product 1</h3>
+                    <p>$19.99</p>
+                    <a href="#" class="btn">Add to Cart</a>
                 </div>
-                <div class="category-card">
-                    <i class="fas fa-landmark"></i>
-                    <h3>History</h3>
-                    <p>Dive into the past and learn about the events that shaped our world.</p>
+                <div class="product-card">
+                    <img src="product2.jpg" alt="Product 2">
+                    <h3>Product 2</h3>
+                    <p>$29.99</p>
+                    <a href="#" class="btn">Add to Cart</a>
                 </div>
-                <div class="category-card">
-                    <i class="fas fa-laptop-code"></i>
-                    <h3>Technology</h3>
-                    <p>Stay updated with the latest advancements in technology and innovation.</p>
-                </div>
-                <div class="category-card">
-                    <i class="fas fa-palette"></i>
-                    <h3>Art & Culture</h3>
-                    <p>Discover the rich tapestry of human creativity and expression.</p>
+                <div class="product-card">
+                    <img src="product3.jpg" alt="Product 3">
+                    <h3>Product 3</h3>
+                    <p>$39.99</p>
+                    <a href="#" class="btn">Add to Cart</a>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2023 Modern Wiki. All rights reserved.</p>
+            <p>&copy; 2023 Amazon Clone. All rights reserved.</p>
             <ul>
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms of Service</a></li>
